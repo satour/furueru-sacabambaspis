@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>震えるサカバンバスピス</title>
+        <meta name="description" content="サカバンバスピスがCSSで震えます。">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .buruburu {
+            display: inline-block;
+            animation: hurueru .1s  infinite;
+        }
+
+        @keyframes hurueru {
+            0% {transform: translate(0px, 0px) rotateZ(0deg)}
+            25% {transform: translate(2px, 2px) rotateZ(1deg)}
+            50% {transform: translate(0px, 2px) rotateZ(0deg)}
+            75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+            100% {transform: translate(0px, 0px) rotateZ(0deg)}
+        }
+    </style>
+    </head>
+    <body>
+        <img src="kodai_sacabambaspis.png" class="buruburu">
+        <!-- download from https://www.irasutoya.com/2023/06/blog-post.html -->
+    </body>
+</html>
